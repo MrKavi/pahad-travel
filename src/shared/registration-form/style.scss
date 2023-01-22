@@ -1,0 +1,138 @@
+.registration-form {
+
+    width: 450px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 68px 65px 31px 65px;
+    margin-top: 60px;
+    margin-right: 83px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 34px rgba(0, 0, 0, 0.04);
+    border-radius: 10px;
+
+    span {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .p-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 13px;
+        color: #666666;
+        margin-top: 12px;
+        font-weight: 400
+    }
+
+    .input-box{
+        // width: 100%;
+        // padding: 15px 17px;
+        // background: #FAFAFA;
+        // border: 1px solid #D8D8D8;
+        // border-radius: 8px;
+        // margin-top: 24px;
+    }
+
+    .forget-password{
+        width: 100%;
+        margin-top: 12px;
+        display: flex;
+        justify-content: end;
+    }
+
+    .sign-in{
+        width: 100%;
+        margin-top: 65px;
+        background-color: #25A0DA;
+        font-weight: 500;
+font-size: 14px
+    }
+    .register{
+        margin-top: 10px;
+    }
+
+    .psw-wraper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        position: relative;
+        margin-top: 24px;
+    
+        .input-box-password {
+            width: 100%;
+            padding: 15px 17px;
+            background: #FAFAFA;
+            border: 1px solid #D8D8D8;
+            border-radius: 8px;
+    
+        }
+    
+        .eye-icon{
+            position: absolute;
+            margin-right: 14px;
+            width: 15px;
+            
+        }
+    
+    }
+
+
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .registration-form {
+
+        width: 360px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 38px 35px 20px 35px;
+        margin-top: 55px;
+        margin-right: 25px;
+        
+    }
+  
+    
+    
+  }
+
+
+  @media  (max-width: 768px) {
+  
+    .registration-form {
+
+        width: 360px;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 28px 25px 20px 25px;
+        margin-top: 25px;
+        margin-right: 0;
+
+
+        
+    }
+    
+  }
+
+    
+
+
+
+
+
+
