@@ -1,13 +1,13 @@
 .registration-form {
 
-    width: 450px;
+    width: 350px;
     height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 68px 65px 31px 65px;
-    margin-top: 60px;
+    padding: 68px 30px 31px 30px;
+    margin-top: 40px;
     margin-right: 83px;
     background: #FFFFFF;
     box-shadow: 0px 24px 34px rgba(0, 0, 0, 0.04);
@@ -16,6 +16,7 @@
     span {
         font-size: 24px;
         font-weight: 600;
+        margin-bottom: 10px;
     }
 
     .p-text{
@@ -47,14 +48,21 @@
 
     .sign-in{
         width: 100%;
-        margin-top: 65px;
+        margin-top: 25px;
         background-color: #25A0DA;
         font-weight: 500;
 font-size: 14px
     }
     .register{
         margin-top: 10px;
+        // cursor: pointer;
+
     }
+        .register-p {
+            size: 10px;
+            color: #0a50dc;
+            cursor: pointer;
+        }
 
     .psw-wraper {
         width: 100%;

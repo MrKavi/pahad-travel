@@ -5,10 +5,10 @@ const Footer = () => {
   return (
     <div className='footer'>
       <ul>
-        <li>corefares @ 2023</li>
+        <li>All copy rights reserved by pahad-travel@2023</li>
         <li>About Us</li>
         <li>Privacy Policy</li>
-        <li>Terms & Conditions</li>
+        <li style={{ paddingRight: "30px" }}>Terms & Conditions</li>
       </ul>
     </div>
   )

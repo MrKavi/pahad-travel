@@ -1,7 +1,7 @@
 .testimonials{
     width: 680px;
-padding-top: 100px;
-padding-left: 126px;
+padding-top: 135px;
+padding-left: 105px;
 padding-bottom: 10px;
 .carousel-indicators{
 display: flex;
@@ -18,12 +18,13 @@ bottom: 24.61%;
 // font-family: 'Manrope';
 font-style: normal;
 font-weight: 500;
-font-size: 35px;
-line-height: 48px;
+font-size: 20px;
 color: #000000;
+padding: 10px;
 margin-bottom: 25px;
 }
 .name{
+padding: 10px;
     left: 9.21%;
 right: 78%;
 top: 82.68%;
@@ -36,14 +37,27 @@ line-height: 25px;
 color: #000000;
 margin-bottom: 6px;
 }
+.carousel-menu{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 1px solid gray;
+    object-fit: cover;
+
+}
 .carousel-indicators {
     padding: 20px;
 }
 .plane{
-    padding-top: 155px;
+    height: 200px;
+    padding-top: 85px;
     padding-left: 126px;
 }
+.testimonial-img{
 
+    height: 250px;
+    object-fit: cover;
+}
 
 
 @media (min-width: 768px) and (max-width: 1024px) {

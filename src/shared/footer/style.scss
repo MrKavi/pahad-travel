@@ -12,13 +12,15 @@ ul{
     justify-content: center;
 }
 li{
+    background-color: whitesmoke;
+    padding: 3px 10px;
     cursor: pointer;
 padding-left: 30px;
-margin-bottom: 30px;
-font-weight: 500;
-font-size: 12px;
+margin-bottom: 10px;
+font-weight: 600;
+font-size: 15px;
 line-height: 16px;
 letter-spacing: -0.01em;
-color: #878B95;
+color: black;
 list-style: none;
 }

@@ -3,16 +3,22 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import './style.scss';
 import eye from '../../assets/eye.svg'
+import greeting from '../../assets/greeting.webp'
+
 
 const RegistrationForm = () => {
   return <Form className="registration-form">
+    <div style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "10px", height: "100px", borderRadius: "50px", objectFit: "cover" }}>
+      <img style={{ width: "100px" }} src={greeting} />
 
-    <span>Hello, Again!</span>
-    <p className="p-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-    <input class="form-control form-control-lg" type="text" placeholder="Customer ID"></input>
-    <input class="form-control form-control-lg mt-4" type="text" placeholder="Andrews12@gmail.com"></input>
+    </div>
+    <span> Hello, Welcome!</span>
+
+
+    <input class="form-control form-control-lg" type="text" placeholder="your name"></input>
+    <input class="form-control form-control-lg mt-4" type="text" placeholder="Mr/Mrs_abc@gmail.com"></input>
     <div className="psw-wraper">
-      <input class="form-control form-control-lg " type="text" placeholder="Password"></input>
+      <input class="form-control form-control-lg " type="password" placeholder="Password"></input>
       <img className="eye-icon" src={eye} alt="" />
     </div>
 
@@ -20,7 +26,8 @@ const RegistrationForm = () => {
       <p>Forgot Password?</p>
     </div>
     <Button className="sign-in">Sign in</Button>
-    <p className="register">Don’t have an account?  Register</p>
+    <p className="register">Don’t have an account?     <p className="register-p"> Register</p> </p>
+
   </Form>;
 
 };
